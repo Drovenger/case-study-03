@@ -23,5 +23,7 @@
     <orderEntry type="library" exported="" name="taglibs-standard-impl-1.2.5" level="project" />
     <orderEntry type="library" exported="" name="javax.annotation" level="project" />
     <orderEntry type="library" name="mysql-connector-java-8.0.17" level="project" />
+    <orderEntry type="library" name="a076d05399" level="application" />
+    <orderEntry type="library" name="font-awesome" level="application" />
   </component>
 </module>
