@@ -59,8 +59,8 @@ public class ServiceBrandImp implements IServiceBrand {
                 String name = resultSet.getString("name");
                 String description = resultSet.getString("description");
                 String status = resultSet.getString("status");
-                Brand brand = new Brand(id, name, description, status);
-                brandList.add(brand);
+//                Brand brand = new Brand(id, name, description, status);
+//                brandList.add(brand);
             }
         } catch (SQLException e) {
             e.printStackTrace();

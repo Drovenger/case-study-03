@@ -46,7 +46,7 @@ public class DAOProductImp implements IDAOProduct {
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("product_name");
-                Brand brand = resultSet.getString("brand");
+                Brand brand = (Brand) resultSet.getObject("brand");
                 int size = resultSet.getInt("size");
                 int quantity = resultSet.getInt("quantity");
                 LocalDateTime importTime = resultSet.getTimestamp("import_date").toLocalDateTime();

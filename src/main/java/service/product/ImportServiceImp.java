@@ -2,7 +2,8 @@ package main.java.service.product;
 
 import main.java.model.dao.DAOProductImp;
 import main.java.model.dao.IDAOProduct;
-import main.java.model.product.Import;
+import main.java.model.product.Product;
+
 import java.util.List;
 
 public class ImportServiceImp implements IImportService {
@@ -12,7 +13,7 @@ public class ImportServiceImp implements IImportService {
         idaoProduct = new DAOProductImp();
     }
 
-    public List<Import> getImportList() {
+    public List<Product> getImportList() {
         return idaoProduct.getImportList();
     }
 }
