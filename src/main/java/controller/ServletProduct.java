@@ -1,8 +1,6 @@
 package main.java.controller;
 
 import main.java.model.Product;
-import main.java.service.product.IImportService;
-import main.java.service.product.ImportServiceImp;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
