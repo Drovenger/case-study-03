@@ -23,11 +23,6 @@ import java.time.format.DateTimeFormatter;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- * @author Duc on 5/17/2020
- * @project casestudy-module3-duongshoe
- **/
-
 @WebServlet(name = "ServletProduct", urlPatterns = "/product")
 public class ProductServlet extends HttpServlet {
     public static final int RECORD_PER_PAGE_DISPLAY = 10;
