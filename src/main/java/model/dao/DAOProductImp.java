@@ -1,16 +1,15 @@
 package main.java.model.dao;
 
-import main.java.model.product.Import;
+import main.java.model.Brand;
+import main.java.model.product.Product;
 import main.java.util.DBHandle;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Date;
 import java.util.List;
 
 public class DAOProductImp implements IDAOProduct {
@@ -23,8 +22,8 @@ public class DAOProductImp implements IDAOProduct {
         System.out.println(connection);
     }
 
-    public List<Import> getImportList() {
-        List<Import> importList = new ArrayList<>();
+    public List<Product> getImportList() {
+        List<Product> importList = new ArrayList<>();
         String query =
                 "SELECT import.id,\n" +
                         "       product.product_name,\n" +
@@ -47,12 +46,12 @@ public class DAOProductImp implements IDAOProduct {
             while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("product_name");
-                String brand = resultSet.getString("brand");
+                Brand brand = resultSet.getString("brand");
                 int size = resultSet.getInt("size");
                 int quantity = resultSet.getInt("quantity");
                 LocalDateTime importTime = resultSet.getTimestamp("import_date").toLocalDateTime();
                 String status = resultSet.getString("status");
-                importList.add(new Import(id, name, brand, size, quantity, importTime, status));
+                importList.add(new Product(id, name, brand, size, quantity, importTime, status));
             }
             System.out.println(resultSet);
         } catch (SQLException e) {
