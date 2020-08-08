@@ -133,6 +133,8 @@ create table if not exists user
 )
     charset = utf8;
 
+    alter table user alter column role_id set default 1;
+
 create table if not exists bill
 (
     id              int auto_increment

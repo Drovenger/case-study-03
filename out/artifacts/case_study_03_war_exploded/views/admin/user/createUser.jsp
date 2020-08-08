@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Duong shoe's Admin</title>
+    <title>Thêm người dùng</title>
     <link rel="stylesheet" href="resources/vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="resources/vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="resources/vendors/css/vendor.bundle.base.css">
@@ -31,7 +31,7 @@
                     alt="logo"/></a>
         </div>
         <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
-            <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome Duong shoe's dashboard!</h5>
+            <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome to Online Shop dashboard!</h5>
             <ul class="navbar-nav navbar-nav-right ml-auto">
                 <form class="search-form d-none d-md-block" action="#">
                     <i class="icon-magnifier"></i><input type="search" class="form-control" placeholder="Tìm kiếm" title="Search here">
@@ -258,32 +258,32 @@
                                     </div>
                                     <div class="row">
                                         <%--role--%>
-                                        <div class="col-md-6">
-                                            <div class="form-group row">
-                                                <label class="col-sm-3 col-form-label">Loại tài khoản</label>
-                                                <div class="col-sm-9">
-                                                    <select class="form-control" name="role">
-                                                        <option name="user" value="1">Người dùng</option>
-                                                        <option name="vipUser" value="3">Người dùng VIP 1</option>
-                                                        <option name="admin" value="2">Admin</option>
-                                                    </select>
-                                                    <div id="roleError"></div>
-                                                </div>
-                                            </div>
-                                        </div>
+<%--                                        <div class="col-md-6">--%>
+<%--                                            <div class="form-group row">--%>
+<%--                                                <label class="col-sm-3 col-form-label">Loại tài khoản</label>--%>
+<%--                                                <div class="col-sm-9">--%>
+<%--                                                    <select class="form-control" name="role">--%>
+<%--                                                        <option name="user" value="1">Người dùng</option>--%>
+<%--                                                        <option name="vipUser" value="3">Người dùng VIP 1</option>--%>
+<%--                                                        <option name="admin" value="2">Admin</option>--%>
+<%--                                                    </select>--%>
+<%--                                                    <div id="roleError"></div>--%>
+<%--                                                </div>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
                                         <%--status--%>
-                                        <div class="col-md-6">
-                                            <div class="form-group row">
-                                                <label class="col-sm-3 col-form-label">Trạng thái</label>
-                                                <div class="col-sm-9">
-                                                    <select class="form-control" name="status">
-                                                        <option name="admin" value="1">Đang hoạt động</option>
-                                                        <option name="user" value="0">Bị khóa</option>
-                                                    </select>
-                                                    <div id="statusError"></div>
-                                                </div>
-                                            </div>
-                                        </div>
+<%--                                        <div class="col-md-6">--%>
+<%--                                            <div class="form-group row">--%>
+<%--                                                <label class="col-sm-3 col-form-label">Trạng thái</label>--%>
+<%--                                                <div class="col-sm-9">--%>
+<%--                                                    <select class="form-control" name="status">--%>
+<%--                                                        <option name="admin" value="1">Đang hoạt động</option>--%>
+<%--                                                        <option name="user" value="0">Bị khóa</option>--%>
+<%--                                                    </select>--%>
+<%--                                                    <div id="statusError"></div>--%>
+<%--                                                </div>--%>
+<%--                                            </div>--%>
+<%--                                        </div>--%>
                                     </div>
                                     <p class="card-description"> Địa chỉ </p>
                                     <div class="row">
