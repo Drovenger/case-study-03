@@ -311,3 +311,20 @@ LOCK TABLES `user` WRITE;
 /*!40000 ALTER TABLE `user`
     ENABLE KEYS */;
 UNLOCK TABLES;
+
+alter table import
+	add constraint import_product_id_fk
+		foreign key (product_id) references product (id);
+
+		drop index product_stock_fk on product;
+
+create index product_stock_fk
+	on product (stock_id);
+
+alter table product drop foreign key product_stock_fk;
+
+alter table product drop column stock_id;
+
+alter table product
+	add constraint product_stock_fk
+		foreign key (stock_id) references import (id);
