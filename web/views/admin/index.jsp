@@ -20,7 +20,7 @@
     <!-- endinject -->
     <!-- Plugin css for this page -->
     <link rel="stylesheet" href="./resources/vendors/daterangepicker/daterangepicker.css">
-    <link rel="stylesheet" href="./resources/chartist/chartist.min.css">
+    <link rel="stylesheet" href="resources/vendors/chartist/chartist.min.css">
     <!-- End plugin css for this page -->
     <!-- inject:css -->
     <!-- endinject -->
@@ -64,7 +64,7 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
-                                <img src="images/faces/face10.jpg" alt="image" class="img-sm profile-pic"></div>
+                                <img src="resources/images/faces/face10.jpg" alt="image" class="img-sm profile-pic"></div>
                             <div class="preview-item-content flex-grow py-2">
                                 <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
                                 <p class="font-weight-light small-text"> The meeting is cancelled </p>
@@ -72,7 +72,7 @@
                         </a>
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
-                                <img src="images/faces/face12.jpg" alt="image" class="img-sm profile-pic"></div>
+                                <img src="resources/images/faces/face12.jpg" alt="image" class="img-sm profile-pic"></div>
                             <div class="preview-item-content flex-grow py-2">
                                 <p class="preview-subject ellipsis font-weight-medium text-dark">David Grey </p>
                                 <p class="font-weight-light small-text"> The meeting is cancelled </p>
@@ -80,7 +80,7 @@
                         </a>
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
-                                <img src="images/faces/face1.jpg" alt="image" class="img-sm profile-pic"></div>
+                                <img src="resources/images/faces/face1.jpg" alt="image" class="img-sm profile-pic"></div>
                             <div class="preview-item-content flex-grow py-2">
                                 <p class="preview-subject ellipsis font-weight-medium text-dark">Travis Jenkins </p>
                                 <p class="font-weight-light small-text"> The meeting is cancelled </p>
@@ -111,11 +111,11 @@
                 <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
                     <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown"
                        aria-expanded="false">
-                        <img class="img-xs rounded-circle ml-2" src="images/faces/face8.jpg" alt="Profile image"> <span
+                        <img class="img-xs rounded-circle ml-2" src="resources/images/faces/face8.jpg" alt="Profile image"> <span
                             class="font-weight-normal"> Henry Klein </span></a>
                     <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                         <div class="dropdown-header text-center">
-                            <img class="img-md rounded-circle" src="images/faces/face8.jpg" alt="Profile image">
+                            <img class="img-md rounded-circle" src="resources/images/faces/face8.jpg" alt="Profile image">
                             <p class="mb-1 mt-3">Allen Moreno</p>
                             <p class="font-weight-light text-muted mb-0">allenmoreno@gmail.com</p>
                         </div>
@@ -144,7 +144,7 @@
                 <li class="nav-item nav-profile">
                     <a href="#" class="nav-link">
                         <div class="profile-image">
-                            <img class="img-xs rounded-circle" src="images/faces/face8.jpg" alt="profile image">
+                            <img class="img-xs rounded-circle" src="resources/images/faces/face8.jpg" alt="profile image">
                             <div class="dot-indicator bg-success"></div>
                         </div>
                         <div class="text-wrapper">
@@ -175,33 +175,33 @@
                     </a>
                     <div class="collapse" id="ui-basic">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item"><a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/ui-features/buttons.html">Buttons</a>
                             </li>
                             <li class="nav-item"><a class="nav-link"
-                                                    href="pages/ui-features/typography.html">Typography</a></li>
+                                                    href="resources/pages/ui-features/typography.html">Typography</a></li>
                         </ul>
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/icons/simple-line-icons.html">
+                    <a class="nav-link" href="resources/pages/icons/simple-line-icons.html">
                         <span class="menu-title">Icons</span>
                         <i class="icon-globe menu-icon"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/forms/basic_elements.html">
+                    <a class="nav-link" href="resources/pages/forms/basic_elements.html">
                         <span class="menu-title">Form Elements</span>
                         <i class="icon-book-open menu-icon"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/charts/chartist.html">
+                    <a class="nav-link" href="resources/pages/charts/chartist.html">
                         <span class="menu-title">Charts</span>
                         <i class="icon-chart menu-icon"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="pages/tables/basic-table.html">
+                    <a class="nav-link" href="resources/pages/tables/basic-table.html">
                         <span class="menu-title">Tables</span>
                         <i class="icon-grid menu-icon"></i>
                     </a>
@@ -214,12 +214,12 @@
                     </a>
                     <div class="collapse" id="auth">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item"><a class="nav-link" href="pages/samples/login.html"> Login </a></li>
-                            <li class="nav-item"><a class="nav-link" href="pages/samples/register.html"> Register </a>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/login.html"> Login </a></li>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/register.html"> Register </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="pages/samples/error-404.html"> 404 </a></li>
-                            <li class="nav-item"><a class="nav-link" href="pages/samples/error-500.html"> 500 </a></li>
-                            <li class="nav-item"><a class="nav-link" href="pages/samples/blank-page.html"> Blank
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/error-404.html"> 404 </a></li>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/error-500.html"> 500 </a></li>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/blank-page.html"> Blank
                                 Page </a></li>
                         </ul>
                     </div>
@@ -431,7 +431,9 @@
                                         <div class="input-group" id="income-expense-summary-chart-daterange">
                                             <div class="inpu-group-prepend input-group-text"><i
                                                     class="icon-calendar"></i></div>
-                                            <input type="text" class="form-control">
+                                            <label>
+                                                <input type="text" class="form-control">
+                                            </label>
                                             <div class="input-group-prepend input-group-text"><i
                                                     class="icon-arrow-down"></i></div>
                                         </div>
@@ -469,11 +471,11 @@
                                         <tbody>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="images/faces/face1.jpg"
+                                                <img class="img-sm rounded-circle" src="resources/images/faces/face1.jpg"
                                                      alt="profile image"> Katie Holmes
                                             </td>
                                             <td>$3621</td>
-                                            <td><img src="images/dashboard/alipay.png" alt="alipay"
+                                            <td><img src="resources/images/dashboard/alipay.png" alt="alipay"
                                                      class="gateway-icon mr-2"> alipay
                                             </td>
                                             <td>04 Jun 2019</td>
@@ -484,11 +486,11 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="images/faces/face2.jpg"
+                                                <img class="img-sm rounded-circle" src="resources/images/faces/face2.jpg"
                                                      alt="profile image"> Minnie Copeland
                                             </td>
                                             <td>$6245</td>
-                                            <td><img src="images/dashboard/paypal.png" alt="alipay"
+                                            <td><img src="resources/images/dashboard/paypal.png" alt="alipay"
                                                      class="gateway-icon mr-2"> Paypal
                                             </td>
                                             <td>25 Sep 2019</td>
@@ -499,11 +501,11 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="images/faces/face3.jpg"
+                                                <img class="img-sm rounded-circle" src="resources/images/faces/face3.jpg"
                                                      alt="profile image"> Rodney Sims
                                             </td>
                                             <td>$9265</td>
-                                            <td><img src="images/dashboard/alipay.png" alt="alipay"
+                                            <td><img src="resources/images/dashboard/alipay.png" alt="alipay"
                                                      class="gateway-icon mr-2"> alipay
                                             </td>
                                             <td>12 dec 2019</td>
@@ -514,11 +516,11 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="images/faces/face4.jpg"
+                                                <img class="img-sm rounded-circle" src="resources/images/faces/face4.jpg"
                                                      alt="profile image"> Carolyn Barker
                                             </td>
                                             <td>$2263</td>
-                                            <td><img src="images/dashboard/alipay.png" alt="alipay"
+                                            <td><img src="resources/images/dashboard/alipay.png" alt="alipay"
                                                      class="gateway-icon mr-2"> alipay
                                             </td>
                                             <td>30 Sep 2019</td>
@@ -568,7 +570,7 @@
 </div>
 <!-- container-scroller -->
 <!-- plugins:js -->
-<script src="vendors/js/vendor.bundle.base.js"></script>
+<script src="../web/resources/vendors/js/vendor.bundle.base.js"></script>
 <!-- endinject -->
 <!-- Plugin js for this page -->
 <script src="./vendors/chart.js/Chart.min.js"></script>
@@ -577,8 +579,8 @@
 <script src="./vendors/chartist/chartist.min.js"></script>
 <!-- End plugin js for this page -->
 <!-- inject:js -->
-<script src="js/off-canvas.js"></script>
-<script src="js/misc.js"></script>
+<script src="resources/js/off-canvas.js"></script>
+<script src="resources/js/misc.js"></script>
 <!-- endinject -->
 <!-- Custom js for this page -->
 <script src="./js/dashboard.js"></script>
