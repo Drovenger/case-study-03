@@ -1,7 +1,7 @@
 package main.java.model.dao;
 
 import main.java.model.Brand;
-import main.java.model.product.Product;
+import main.java.model.Product;
 import main.java.util.DBHandle;
 
 import java.sql.Connection;

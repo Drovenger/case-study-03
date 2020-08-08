@@ -1,6 +1,6 @@
 package main.java.controller;
 
-import main.java.model.product.Product;
+import main.java.model.Product;
 import main.java.service.product.IImportService;
 import main.java.service.product.ImportServiceImp;
 

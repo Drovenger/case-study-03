@@ -64,7 +64,8 @@
                         <div class="dropdown-divider"></div>
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
-                                <img src="resources/images/faces/face10.jpg" alt="image" class="img-sm profile-pic"></div>
+                                <img src="resources/images/faces/face10.jpg" alt="image" class="img-sm profile-pic">
+                            </div>
                             <div class="preview-item-content flex-grow py-2">
                                 <p class="preview-subject ellipsis font-weight-medium text-dark">Marian Garner </p>
                                 <p class="font-weight-light small-text"> The meeting is cancelled </p>
@@ -72,7 +73,8 @@
                         </a>
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
-                                <img src="resources/images/faces/face12.jpg" alt="image" class="img-sm profile-pic"></div>
+                                <img src="resources/images/faces/face12.jpg" alt="image" class="img-sm profile-pic">
+                            </div>
                             <div class="preview-item-content flex-grow py-2">
                                 <p class="preview-subject ellipsis font-weight-medium text-dark">David Grey </p>
                                 <p class="font-weight-light small-text"> The meeting is cancelled </p>
@@ -80,7 +82,8 @@
                         </a>
                         <a class="dropdown-item preview-item">
                             <div class="preview-thumbnail">
-                                <img src="resources/images/faces/face1.jpg" alt="image" class="img-sm profile-pic"></div>
+                                <img src="resources/images/faces/face1.jpg" alt="image" class="img-sm profile-pic">
+                            </div>
                             <div class="preview-item-content flex-grow py-2">
                                 <p class="preview-subject ellipsis font-weight-medium text-dark">Travis Jenkins </p>
                                 <p class="font-weight-light small-text"> The meeting is cancelled </p>
@@ -111,11 +114,13 @@
                 <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
                     <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown"
                        aria-expanded="false">
-                        <img class="img-xs rounded-circle ml-2" src="resources/images/faces/face8.jpg" alt="Profile image"> <span
+                        <img class="img-xs rounded-circle ml-2" src="resources/images/faces/face8.jpg"
+                             alt="Profile image"> <span
                             class="font-weight-normal"> Henry Klein </span></a>
                     <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                         <div class="dropdown-header text-center">
-                            <img class="img-md rounded-circle" src="resources/images/faces/face8.jpg" alt="Profile image">
+                            <img class="img-md rounded-circle" src="resources/images/faces/face8.jpg"
+                                 alt="Profile image">
                             <p class="mb-1 mt-3">Allen Moreno</p>
                             <p class="font-weight-light text-muted mb-0">allenmoreno@gmail.com</p>
                         </div>
@@ -144,7 +149,8 @@
                 <li class="nav-item nav-profile">
                     <a href="#" class="nav-link">
                         <div class="profile-image">
-                            <img class="img-xs rounded-circle" src="resources/images/faces/face8.jpg" alt="profile image">
+                            <img class="img-xs rounded-circle" src="resources/images/faces/face8.jpg"
+                                 alt="profile image">
                             <div class="dot-indicator bg-success"></div>
                         </div>
                         <div class="text-wrapper">
@@ -178,7 +184,8 @@
                             <li class="nav-item"><a class="nav-link" href="resources/pages/ui-features/buttons.html">Buttons</a>
                             </li>
                             <li class="nav-item"><a class="nav-link"
-                                                    href="resources/pages/ui-features/typography.html">Typography</a></li>
+                                                    href="resources/pages/ui-features/typography.html">Typography</a>
+                            </li>
                         </ul>
                     </div>
                 </li>
@@ -214,12 +221,17 @@
                     </a>
                     <div class="collapse" id="auth">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/login.html"> Login </a></li>
-                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/register.html"> Register </a>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/login.html">
+                                Login </a></li>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/register.html">
+                                Register </a>
                             </li>
-                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/error-404.html"> 404 </a></li>
-                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/error-500.html"> 500 </a></li>
-                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/blank-page.html"> Blank
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/error-404.html">
+                                404 </a></li>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/error-500.html">
+                                500 </a></li>
+                            <li class="nav-item"><a class="nav-link" href="resources/pages/samples/blank-page.html">
+                                Blank
                                 Page </a></li>
                         </ul>
                     </div>
@@ -471,7 +483,8 @@
                                         <tbody>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="resources/images/faces/face1.jpg"
+                                                <img class="img-sm rounded-circle"
+                                                     src="resources/images/faces/face1.jpg"
                                                      alt="profile image"> Katie Holmes
                                             </td>
                                             <td>$3621</td>
@@ -486,7 +499,8 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="resources/images/faces/face2.jpg"
+                                                <img class="img-sm rounded-circle"
+                                                     src="resources/images/faces/face2.jpg"
                                                      alt="profile image"> Minnie Copeland
                                             </td>
                                             <td>$6245</td>
@@ -501,7 +515,8 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="resources/images/faces/face3.jpg"
+                                                <img class="img-sm rounded-circle"
+                                                     src="resources/images/faces/face3.jpg"
                                                      alt="profile image"> Rodney Sims
                                             </td>
                                             <td>$9265</td>
@@ -516,7 +531,8 @@
                                         </tr>
                                         <tr>
                                             <td>
-                                                <img class="img-sm rounded-circle" src="resources/images/faces/face4.jpg"
+                                                <img class="img-sm rounded-circle"
+                                                     src="resources/images/faces/face4.jpg"
                                                      alt="profile image"> Carolyn Barker
                                             </td>
                                             <td>$2263</td>

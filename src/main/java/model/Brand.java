@@ -1,7 +1,5 @@
 package main.java.model;
 
-import main.java.model.product.Product;
-
 import java.util.LinkedList;
 import java.util.List;
 
