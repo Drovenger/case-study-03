@@ -14,12 +14,6 @@ import java.util.Iterator;
 import java.util.LinkedList;
 import java.util.List;
 
-/**
- * @author Duc on 5/19/2020
- * @project casestudy-module3-duongshoe
- **/
-
-
 public class ProductServiceImp implements IProductService {
     private Connection connection;
     private PreparedStatement statement;
