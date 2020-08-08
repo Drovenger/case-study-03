@@ -10,7 +10,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<<<<<<< HEAD
     <title>Online shop Admin</title>
+=======
+    <title>Duong shoe's Admin</title>
+>>>>>>> parent of b1fae40... Revert "error 404"
     <link rel="stylesheet"
           href="${pageContext.request.contextPath}/resources/vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet"
