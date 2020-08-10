@@ -1,21 +1,13 @@
-<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 17/05/2020
-  Time: 13:59
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Online Shop Admin</title>
+    <title>Drovenger Online Shop Admin</title>
     <link rel="stylesheet" href="resources/vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet" href="resources/vendors/flag-icon-css/css/flag-icon.min.css">
     <link rel="stylesheet" href="resources/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="resources/css/style.css"/>
-<%--    <link rel="shortcut icon" href="resources/images/62581209.jpg"/>--%>
+    <link rel="shortcut icon" href="resources/images/62581209.jpg"/>
 </head>
 <body>
 <div class="container-scroller">
@@ -25,7 +17,7 @@
                 <div class="col-lg-4 mx-auto">
                     <div class="auth-form-light text-left p-5">
                         <div class="brand-logo">
-                            <img src="resources/images/logo.svg" alt="#">
+                            <img src="resources/images/logo.svg">
                         </div>
                         <h4>Hello! let's get started</h4>
                         <h6 class="font-weight-light">Sign in to countinue</h6>
@@ -34,10 +26,10 @@
                         </c:if>
                         <form class="pt-3" method="post">
                             <div class="form-group">
-                                <label for="exampleInputEmail1"></label><input type="text" name="username" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                                <input type="text" name="username" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputPassword1"></label><input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                                <input type="password" name="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
                             </div>
                             <div class="mt-3">
                                 <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="SIGN IN">

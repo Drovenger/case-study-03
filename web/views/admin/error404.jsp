@@ -1,20 +1,9 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 20/05/2020
-  Time: 22:36
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<<<<<<< HEAD
-    <title>Online shop Admin</title>
-=======
-    <title>Duong shoe's Admin</title>
->>>>>>> parent of b1fae40... Revert "error 404"
+    <title>Drovenger Online Shop Admin</title>
     <link rel="stylesheet"
           href="${pageContext.request.contextPath}/resources/vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet"

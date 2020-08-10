@@ -8,12 +8,9 @@ import org.junit.jupiter.api.Test;
 
 import java.sql.SQLException;
 
-//import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.*;
 
-/**
- * @author Duc on 5/19/2020
- * @project casestudy-module3-duongshoe
- **/
+
 
 class ProductServiceImpTest {
 

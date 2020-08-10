@@ -1,17 +1,10 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Duc
-  Date: 5/13/2020
-  Time: 10:53 PM
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Drovenger Online Store</title>
+    <title>Drovenger Online Shop</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -118,7 +111,7 @@
                             </ul>
                         </li>
 
-                        <li >
+                        <li>
                             <a href="views/user/cart-detail.jsp">Giỏ hàng</a>
                         </li>
 
@@ -157,7 +150,7 @@
         <!-- Logo moblie -->
         <div class="logo-mobile">
             <a href="#"><img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png"
-                                     alt="IMG-LOGO"></a>
+                             alt="IMG-LOGO"></a>
         </div>
 
         <!-- Icon header -->
@@ -218,7 +211,7 @@
                 <a href="#">Trang chủ</a>
             </li>
 
-            <li >
+            <li>
                 <a href="/home?action=product" class="label1 rs1" data-label1="hot">Sản phẩm</a>
                 <ul class="sub-menu-m">
                     <li><a href="index.html">Adidas</a></li>
@@ -234,7 +227,7 @@
             </li>
 
             <li>
-                <a href="/addtoCart?action=" >Giỏ hàng</a>
+                <a href="/addtoCart?action=">Giỏ hàng</a>
             </li>
 
             <li>
@@ -790,9 +783,9 @@
                 </h4>
 
                 <p class="stext-107 cl7 size-201">
-                    Bạn có câu hỏi dành cho chúng tôi? Hãy gửi nó đến cửa hàng của chúng tôi tại số 23 lô TT01 khu đô
+                    Bạn có câu hỏi dành cho chúng tôi? Hãy gửi nó đến cửa hàng của chúng tôi tại số 15 lô TT04 khu đô
                     thị Mon City
-                    hoặc gọi chúng tôi qua số điện thoại: (+84)35.689.8788
+                    hoặc gọi chúng tôi qua số điện thoại: (+84)988.888.888
                 </p>
 
                 <div class="p-t-27">
@@ -818,7 +811,7 @@
                 <form>
                     <div class="wrap-input1 w-full p-b-4">
                         <input class="input1 bg-none plh1 stext-107 cl7" type="text" name="email"
-                               placeholder="email@codegym.com">
+                               placeholder="email@example.com">
                         <div class="focus-input1 trans-04"></div>
                     </div>
 

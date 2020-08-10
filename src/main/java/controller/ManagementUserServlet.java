@@ -28,6 +28,9 @@ public class ManagementUserServlet extends HttpServlet {
             case "create_user":
                 showCreateUserForm(request, response);
                 break;
+            default:
+                showUserTable(request, response);
+                break;
         }
     }
 

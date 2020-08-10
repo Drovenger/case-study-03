@@ -1,15 +1,8 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: Admin
-  Date: 17/05/2020
-  Time: 16:02
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Online Shop Admin</title>
+    <title>Drovenger Online Shop Admin</title>
     <link rel="stylesheet"
           href="${pageContext.request.contextPath}/resources/vendors/simple-line-icons/css/simple-line-icons.css">
     <link rel="stylesheet"
@@ -22,11 +15,11 @@
     <link rel="shortcut icon" href="${pageContext.request.contextPath}/resources/images/favicon.png"/>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/dashboard" id="dashboard">
+<form action="/dashboard" id="dashboard">
 <div class="container-scroller">
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row">
         <div class="navbar-menu-wrapper d-flex align-items-center flex-grow-1">
-            <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome to Online Shop dashboard!</h5>
+            <h5 class="mb-0 font-weight-medium d-none d-lg-flex">Welcome to Drovenger Online Shop dashboard!</h5>
             <ul class="navbar-nav navbar-nav-right ml-auto">
                 <li class="nav-item dropdown d-none d-xl-inline-flex user-dropdown">
                     <a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown"
@@ -50,7 +43,7 @@
                         <a class="dropdown-item"><i class="dropdown-item-icon icon-energy text-primary"></i>
                             Activity</a>
                         <a class="dropdown-item"><i class="dropdown-item-icon icon-question text-primary"></i> FAQ</a>
-                        <a href="${pageContext.request.contextPath}/admin" class="dropdown-item"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
+                        <a href="/admin" class="dropdown-item"><i class="dropdown-item-icon icon-power text-primary"></i>Sign Out</a>
                     </div>
                 </li>
             </ul>
@@ -85,7 +78,7 @@
                     <span class="nav-link">Dashboard</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="${pageContext.request.contextPath}/dashboard">
+                    <a class="nav-link" href="/dashboard">
                         <span class="menu-title">Dashboard</span>
                         <i class="icon-screen-desktop menu-icon"></i>
                     </a>
@@ -111,7 +104,7 @@
                     </a>
                     <div class="collapse" id="bill">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/admin?action=view_bill">Xem hóa đơn</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="/admin?action=view_bill">Xem hóa đơn</a></li>
                         </ul>
                     </div>
                 </li>
@@ -123,8 +116,8 @@
                     </a>
                     <div class="collapse" id="user">
                         <ul class="nav flex-column sub-menu">
-                            <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/user?action=view_user">Xem người dùng</a></li>
-                            <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/user?action=create_user">Thêm người dùng</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="/user?action=view_user">Xem người dùng</a></li>
+                            <li class="nav-item"> <a class="nav-link" href="/user?action=create_user">Thêm người dùng</a></li>
                         </ul>
                     </div>
                 </li>
@@ -207,7 +200,7 @@
                             </div>
                             <div class="d-md-flex row m-0 quick-action-btns" role="group" aria-label="Quick action buttons">
                                 <div class="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
-                                    <a class="btn px-0" href="${pageContext.request.contextPath}/user?action=create_user"><i class="icon-user mr-2"></i>Thêm tài khoản</a>
+                                    <a class="btn px-0" href="/user?action=create_user"><i class="icon-user mr-2"></i>Thêm tài khoản</a>
                                 </div>
                                 <div class="col-sm-6 col-md-3 p-3 text-center btn-wrapper">
                                     <button type="button" class="btn px-0"><i class="icon-docs mr-2"></i> Create Quote
@@ -310,9 +303,7 @@
                                         <div class="input-group" id="income-expense-summary-chart-daterange">
                                             <div class="inpu-group-prepend input-group-text"><i
                                                     class="icon-calendar"></i></div>
-                                            <label>
-                                                <input type="text" class="form-control">
-                                            </label>
+                                            <input type="text" class="form-control">
                                             <div class="input-group-prepend input-group-text"><i
                                                     class="icon-arrow-down"></i></div>
                                         </div>
