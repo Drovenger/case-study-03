@@ -89,7 +89,7 @@
 
                 <!-- Logo desktop -->
                 <a href="#" class="logo">
-                    <img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png" alt="IMG-LOGO">
+                    <img src="${pageContext.request.contextPath}/resources/images/icons/logo-010.png" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu desktop -->
@@ -149,7 +149,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="#"><img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png"
+            <a href="#"><img src="${pageContext.request.contextPath}/resources/images/icons/logo-010.png"
                              alt="IMG-LOGO"></a>
         </div>
 

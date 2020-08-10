@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Coza Store - Liên hệ</title>
+    <title>Drovenger Online Store - Liên hệ</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--===============================================================================================-->
@@ -64,7 +64,7 @@
 
                 <!-- Logo desktop -->
                 <a href="/home?action=" class="logo">
-                    <img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png" alt="IMG-LOGO">
+                    <img src="${pageContext.request.contextPath}/resources/images/icons/logo-010.png" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu desktop -->
@@ -122,7 +122,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="/home?action="><img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png" alt="IMG-LOGO"></a>
+            <a href="/home?action="><img src="${pageContext.request.contextPath}/resources/images/icons/logo-010.png" alt="IMG-LOGO"></a>
         </div>
 
         <!-- Icon header -->
@@ -322,7 +322,7 @@
 							</span>
 
                         <p class="stext-115 cl1 size-213 p-t-18">
-                            (+84)988.888.888
+                            +84 (0)35 689 8788
                         </p>
                     </div>
                 </div>
