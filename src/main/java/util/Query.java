@@ -1,6 +1,12 @@
 package main.java.util;
 
 public class Query {
+    public static final String UPDATE_BILLS_SQL =
+            "update bill set status=? where id = ?;";
+    public static final String SELECT_ALL_BILLS = "select * from bill";
+    public static final String SELECT_BILL_BY_ID =
+            "select id,user_id,message,discount,shipping_fee,payment,date_of_payment,status,create_date,update_date " +
+                    "from bill where id =?";
     public static final String SELECT_ADMIN_FROM_USER = "select username, password from user where role_id = 2;";
     public static final String SELECT_INFORMATION_FROM_USER = "select * from user where status <> -1;";
     public static final String SELECT_USER_WITH_ID = "select * from user where id = ?;";
@@ -30,10 +36,10 @@ public class Query {
             "GROUP BY product_name";
 
     public static final String SELECT_PRODUCT_FOR_DETAIL = "SELECT * FROM product\n" +
-    "JOIN attachment ON product.id = attachment.product_id\n" +
-    "JOIN catalog ON product.catalog_id = catalog.id\n" +
-    "WHERE catalog_id = ?\n" +
-    "group by product_name";
+            "JOIN attachment ON product.id = attachment.product_id\n" +
+            "JOIN catalog ON product.catalog_id = catalog.id\n" +
+            "WHERE catalog_id = ?\n" +
+            "group by product_name";
 
 
     public static final String SELECT_ALL_IMAGE_FROM_PRODUCT = "SELECT * FROM attachment\n" +

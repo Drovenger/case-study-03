@@ -1,7 +1,6 @@
 package main.java.util;
 
 public class Link {
-    //Huy
     public static final String LOGIN_ADMIN_TO_REDIRECT_DASHBOARD = "views/admin/redirect/redirectDashboard.jsp";
     public static final String LOGIN_CLIENT_TO_REDIRECT_HOME = "views/admin/redirect/redirectHome.jsp";
     public static final String LOGIN_ADMIN_TO_DASHBOARD = "views/admin/dashboard/dashboard.jsp";
