@@ -257,7 +257,7 @@ public class ProductServlet extends HttpServlet {
 
     private Product parseRequestData(HttpServletRequest request) {
         Product product = new Product();
-        product.setDetailID(Integer.parseInt(request.getParameter("id")));
+//        product.setDetailID(Integer.parseInt(request.getParameter("id")));
         product.setProductName(request.getParameter("product-name"));
         product.setCatalogID(Integer.parseInt(request.getParameter("catalog-id")));
         product.setSize(Integer.parseInt(request.getParameter("product-size")));

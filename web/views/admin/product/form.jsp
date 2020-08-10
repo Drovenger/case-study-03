@@ -6,7 +6,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Thêm sản phẩm</title>
+    <title>Sản phẩm</title>
     <!-- plugins:css -->
     <link rel="stylesheet"
           href="${pageContext.request.contextPath}/resources/vendors/simple-line-icons/css/simple-line-icons.css">
