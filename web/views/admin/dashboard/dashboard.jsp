@@ -27,7 +27,7 @@
                             <img class="img-xs rounded-circle ml-2"
                                  src="${pageContext.request.contextPath}/resources/images/faces/face8.jpg"
                                  alt="Profile image">
-                            <span class="font-weight-normal">${user.first_name}</span></a>
+                            <span class="font-weight-normal">Admin</span></a>
                         <div class="dropdown-menu dropdown-menu-right navbar-dropdown" aria-labelledby="UserDropdown">
                             <div class="dropdown-header text-center">
                                 <img class="img-md rounded-circle"
@@ -68,7 +68,7 @@
                                 <div class="dot-indicator bg-success"></div>
                             </div>
                             <div class="text-wrapper">
-                                <p class="profile-name">Allen Moreno</p>
+                                <p class="profile-name">Admin</p>
                                 <p class="designation">Administrator</p>
                             </div>
                             <div class="icon-container">
