@@ -73,7 +73,7 @@
 
                 <!-- Logo desktop -->
                 <a href="/home?action=" class="logo">
-                    <img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png" alt="IMG-LOGO">
+                    <img src="${pageContext.request.contextPath}/resources/images/icons/logo-010.png" alt="IMG-LOGO">
                 </a>
 
                 <!-- Menu desktop -->
@@ -133,7 +133,7 @@
     <div class="wrap-header-mobile">
         <!-- Logo moblie -->
         <div class="logo-mobile">
-            <a href="/home?action="><img src="${pageContext.request.contextPath}/resources/images/icons/logo-01.png"
+            <a href="/home?action="><img src="${pageContext.request.contextPath}/resources/images/icons/logo-010.png"
                                          alt="IMG-LOGO"></a>
         </div>
 
@@ -319,7 +319,7 @@
             <div class="col-11 col-md-5 col-lg-4 m-lr-auto">
                 <div class="how-bor1 ">
                     <div class="hov-img0">
-                        <img src="${pageContext.request.contextPath}/resources/images/codegym-bong-da.jpg" alt="IMG">
+                        <img src="${pageContext.request.contextPath}/resources/images/about-011.jpg" alt="IMG">
                     </div>
                 </div>
             </div>
@@ -355,7 +355,7 @@
             <div class="order-md-1 col-11 col-md-5 col-lg-4 m-lr-auto p-b-30">
                 <div class="how-bor2">
                     <div class="hov-img0">
-                        <img src="${pageContext.request.contextPath}/resources/images/codegym-bong-da-2.jpg" alt="IMG">
+                        <img src="${pageContext.request.contextPath}/resources/images/about-021.jpg" alt="IMG">
                     </div>
                 </div>
             </div>
