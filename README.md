@@ -1,2 +1,15 @@
 "# case-study-03" 
-A demo online store web write by basic MVC, sevlet, jsp, jdbc
+
+PJ Name: Online store 
+
+Description: A demo online store web.
+
+Technology:
+
+- MVC
+
+- JSP Servlet
+
+- jdbc
+
+- IDE: IntelliJ IDEA
